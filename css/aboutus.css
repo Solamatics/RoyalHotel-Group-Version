@@ -294,3 +294,29 @@ body {
 	margin: 20px 0 0 0;
 	color: #fc3b3c;
 }
+
+
+  /* Media Queries */
+  
+  @media only screen and (max-width: 600px) {
+    .responsive-motto {
+      font-size: 30px;
+    }
+    .caption {
+      display: none;
+    }
+  }
+
+  .room-card {
+    transition: all .2s ease-in-out;
+  }
+
+  .room-card:hover {
+    transform: scale(1.001);
+    -webkit-transform: scale(1.1);
+  }
+  .container-fluid mt-4{
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+  }

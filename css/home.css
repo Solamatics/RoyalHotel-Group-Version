@@ -67,9 +67,15 @@ nav{
     text-align: center;
     color: white;
   }
+  .my-3{
+    padding-top: 40px;
+  }
   .rooms h3{
     text-align: center;
     font-size: 40px;  
+  }
+  .padding{
+    padding-top: 40px;
   }
   .btn btn-danger{
     align-self: center;
@@ -142,10 +148,10 @@ nav{
   
   @media only screen and (max-width: 600px) {
     .responsive-motto {
-      font-size: 30px;
+      font-size: 30px !important;
     }
     .caption {
-      display: none;
+      display: none !important;
     }
   }
 
@@ -161,4 +167,7 @@ nav{
     padding: 0px !important;
     margin: 0px !important;
     width: 100%;
+    align-content: center !important;
+    justify-content: center !important;
+    align-content: space-around !important;
   }
