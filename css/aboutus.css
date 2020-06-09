@@ -7,21 +7,51 @@ body {
 	font-family: sans-serif;
 	background: #f1f1f1;
 }
-
-nav {
-	text-transform: uppercase;
-	height: 80px;
+.navbar{
+    padding: 1.2rem;
+    
+  }
+  .nav-head{
+    color: #FC3C3C;
+    font-weight: bold;
+    border-radius: 2px;
+    font-size: 1.5rem;
+  }
+  .nav-head:hover{
+    color: #FC3C3C;
+    font-weight: bold;
+  }
+  .navbar-toggler-icon{
+    color: black;
 }
-nav a {
-	color: black;
-	font-size: 20px;
+.navbar-toggler{
+    background-color: Red;
 }
 
+.navbar-nav li {
+  padding-left: 30px;
+  
+}
+.nav-link {
+  font-size: 1.1em !important;
+  color: black;
+  font-family: nunito;
+}
+.nav-link:hover{
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
-.AboutUs-landing{
+.AboutUs-landing {
+	background-image: url("/images/Abus.png");
 	width: 100%;
-	background-image: url('../images/Rectangle\ 5.png') !important;
-	z-index: auto;
+	height: 100%;
+}
+
+.home-inner {
+	background: url("/images/Abus.png") center center/cover;
+	max-height: 100vh;
 }
 
 .contact__name {
@@ -170,10 +200,10 @@ nav a {
 
 .AboutUs-landing {
 	width: 100%;
-	height: 400px;
+	height: 700px;
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-		url("images/Rectangle 5.png");
-	background: url('../images/Rectangle\ 5.png');
+		url("/images/Abus.png");
+	background: url('/images/Abus.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -182,7 +212,7 @@ nav a {
 	align-content: center;
 }
 .AboutUs-landing .about-us-txt {
-	font-size: 2em;
+	font-size: 2.8em;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #fff;
