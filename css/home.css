@@ -30,6 +30,7 @@ nav{
   .nav-head:hover{
     color: #FC3C3C;
     font-weight: bold;
+    text-decoration: none;
   }
   .navbar-toggler-icon{
     color: black;

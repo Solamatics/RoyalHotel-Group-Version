@@ -17,14 +17,11 @@ nav a {
 	font-size: 20px;
 }
 
-.landing {
-	background-image: url("../images/Rectangle\ 9\ \(3\).png");
-	width: 100%;
-}
 
-.home-inner {
-	background: url("../images/Rectangle\ 9\ \(3\).png") center center/cover;
-	max-height: 100vh;
+.AboutUs-landing{
+	width: 100%;
+	background-image: url('../images/Rectangle\ 5.png') !important;
+	z-index: auto;
 }
 
 .contact__name {
