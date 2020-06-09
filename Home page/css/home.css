@@ -21,6 +21,7 @@ nav{
   }
   .nav-head{
     color: #FC3C3C;
+    font-weight: bold;
     border-radius: 2px;
     font-size: 1.5rem;
   }
@@ -42,10 +43,12 @@ nav{
 .nav-link {
   font-size: 1.1em !important;
   color: black;
+  font-family: nunito;
 }
 .nav-link:hover{
-  color: #FC3C3C;
+  color: black;
   font-weight: bold;
+  text-decoration: underline;
 }
 .caption span.h4 {
     color: #fff;
@@ -86,6 +89,10 @@ nav{
     border-radius: 10px !important;
     width: 210px !important;
     height: 72px !important;
+  }
+  .btn-large-red:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
   }
 
   .footer {
