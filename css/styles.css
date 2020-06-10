@@ -4,56 +4,79 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     font-family: "Helvetica Now Text";
-  }
-  
-  nav{
-      width: 100%;
-      background-color: white !important;
-  }
+}
   
 
-  .navbar{
-      padding: 1.2rem;
-      
-    }
-    .nav-head{
-      color: #FC3C3C;
-      font-weight: bold;
-      border-radius: 2px;
-      font-size: 1.5rem;
-    }
-    .nav-head:hover{
-      color: #FC3C3C;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .navbar-toggler-icon{
-      color: black;
-  }
-  .navbar-toggler{
-      background-color: Red;
-  }
-  
-  .navbar-nav li {
-    padding-left: 30px;
+/* Navbar Styling */
+nav{
+    width: 100%;
+    background-color: white !important;
+}
+
+.home img{
+  width: 100%;
+}
+
+.navbar{
+    padding: 1.2rem;
     
   }
-  .nav-link {
-    font-size: 1.1em !important;
-    color: black;
-    font-family: nunito;
-  }
-  .nav-link:hover{
-    color: black;
+  .nav-head{
+    color: #FC3C3C;
     font-weight: bold;
-    text-decoration: underline;
+    border-radius: 2px;
+    font-size: 1.5rem;
   }
-  .home img{
+  .nav-head:hover{
+    color: #FC3C3C;
+    font-weight: bold;
+    text-decoration: none;
+  }
+.navbar-toggler-icon{
+    color: black;
+}
+.navbar-toggler{
+    background-color: Red;
+}
+
+.navbar-nav li {
+  padding-left: 30px;
+  
+}
+.nav-link {
+  font-size: 1;
+  font-weight: bolder;
+  color: black;
+  font-family: nunito;
+}
+.nav-link:hover{
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* End of navigation styling */
+
+.home{
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("/images/dine.png");
+	background: url('/images/dine.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.home img{
     width: 100%;
     height: 780px;
-  }
+}
 .head{
     width: 100%;
     height: auto;
@@ -160,28 +183,35 @@ font-size: small;
     color: white;
   }
   
-  @media only screen and (max-width: 600px) {
+
+
+/* Media Queries */
+@media only screen and (max-width: 638px) {
+    
     .responsive-motto {
       font-size: 30px;
     }
+    
     .caption  {
     display: none;
     }
-  }
-  .home img{
+
+    .home img{
     width: 100%;
     height: auto;
-  }
- .room-card {
+    }
+    .room-card {
     transition: all .2s ease-in-out;
-  }
+    }
 
-  .room-card:hover {
+    .room-card:hover {
     transform: scale(1.001);
     -webkit-transform: scale(1.1);
-  }
+  
+    }
   .container-fluid mt-4{
     padding: 0px !important;
     margin: 0px !important;
     width: 100%;
-  }
+    }
+}
