@@ -18,7 +18,7 @@ nav{
 
 .navbar{
     padding: 1.2rem;
-    
+
   }
   .nav-head{
     color: #FC3C3C;
@@ -40,7 +40,7 @@ nav{
 
 .navbar-nav li {
   padding-left: 30px;
-  
+
 }
 .nav-link {
   font-size: 1;
@@ -125,6 +125,39 @@ nav{
 	color: #fff;
 	background-color: orangered;
 }
+
+  .footer {
+    padding-bottom: 20px !important;
+  }
+
+  .input-underline {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    color: white;
+    min-width: 90%;
+  }
+
+  .footer-title-item {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .click-link {
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .responsive-motto {
+    font-size: 64px;
+  }
+  .container-fluid mt-4{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+
 
 .facilityCard {
 	position: absolute;
