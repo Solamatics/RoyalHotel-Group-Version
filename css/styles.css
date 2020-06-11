@@ -170,6 +170,7 @@ font-size: small;
   .responsive-motto {
     font-size: 90px;
     color:white;
+    text-shadow: 2px 2px rgb(51, 50, 50);
   }
   .container-fluid mt-4{
     padding: 0px !important;
