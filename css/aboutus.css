@@ -2,9 +2,10 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif
 }
 body {
-	font-family: "Helvetica Now Text";
+
 	background: #f1f1f1;
 }
 nav{
@@ -46,7 +47,7 @@ nav{
   font-size: 1;
   font-weight: bolder;
   color: black;
-  font-family: nunito;
+  
 }
 .nav-link:hover{
   color: black;
@@ -70,7 +71,6 @@ nav{
 	text-align: center;
 	font-size: 3rem;
 	font-weight: 300;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .contact {
 	display: grid;
@@ -270,8 +270,10 @@ nav{
 	color: #fc3b3c;
 }
 .noted p {
-	font-size: 15px;
+	font-size: 20px;
 	word-spacing: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: large;
 }
 .noted .longnote {
 	margin-top: 30px;
@@ -298,7 +300,7 @@ nav{
 	background: #FFf;
 }
 .section2 .grid-box img:hover{
-	transform: scale(1.001);
+	transform: scale(.005);
     -webkit-transform: scale(1.1);
 }
 .section2 img {
@@ -381,4 +383,18 @@ nav{
 	margin: 20px 0 0 0;
 	color: #fc3b3c;
 }
+.section2 .grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	background: #FFf;
 }
+}
+@media (max-width: 500px) {
+	.section2 .grid-container {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 10px;
+		background: #FFf;
+	}
+  }
